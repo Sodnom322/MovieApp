@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import Main from "./Components/Main.jsx";
 
 function App() {
+  console.log("1234");
   return (
     <Routes>
       <Route path="/" element={<Main />} />
